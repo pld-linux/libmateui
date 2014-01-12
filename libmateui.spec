@@ -93,16 +93,16 @@ Ten pakiet zawiera pliki nagłówkowe potrzebne do kompilacji programów
 używających biblioteki libmateui.
 
 %package static
-Summary:	Static libmateui libraries
-Summary(pl.UTF-8):	Statyczne biblioteki libmateui
+Summary:	Static libmateui library
+Summary(pl.UTF-8):	Statyczna biblioteka libmateui
 Group:		X11/Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
-Static version of libmateui libraries.
+Static version of libmateui library.
 
 %description static -l pl.UTF-8
-Statyczna wersja bibliotek libmateui.
+Statyczna wersja biblioteki libmateui.
 
 %package apidocs
 Summary:	libmateui API documentation
